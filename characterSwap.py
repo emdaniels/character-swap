@@ -4,20 +4,22 @@
 Filename: characterSwap.py
 Author: Emily Daniels
 Date: November 2015
-Purpose: Swaps the gender of characters in The Adventures of Sherlock Holmes.
+Purpose: Swaps the names and genders of characters in a novel.
 """
 
 import re
 import string
 from collections import defaultdict
 
-def readText():
+
+def readText(filename):
     """
     Reads the text from a text file.
     """
-    with open("The_Adventures_of_Sherlock_Holmes.txt", "rb") as f:
+    with open(filename, "rb") as f:
         text = f.read()
     return text
+
 
 def splitIntoSentences(text):
     """
@@ -40,24 +42,26 @@ def splitIntoSentences(text):
         """, re.IGNORECASE | re.VERBOSE)
     return sentenceEnders.split(text)
 
-def replaceNames(text):
+
+def replaceNames(text, namesFile):
     """
     Replaces the original character names with those from the file.
     """
     nameSwapText = []
-    names = [i.strip().split(',') for i in open('names.csv')]
+    names = [i.strip().split(',') for i in open(namesFile)]
     for line in text:
         for old, new in names:
             line = line.replace(old, new)
         nameSwapText.append(line)
     return nameSwapText
 
-def replacePronouns(text):
+
+def replacePronouns(text, pronounsFile):
     """
     Replaces the original character pronouns with those from the file.
     """
     pronounSwapText = []
-    pronouns = [i.strip().split(',') for i in open('replacements.csv')]
+    pronouns = [i.strip().split(',') for i in open(pronounsFile)]
     exclude = set(string.punctuation)
     for line in text:
         words = line.split()
@@ -69,6 +73,7 @@ def replacePronouns(text):
         newLine = ' '.join(newWords)
         pronounSwapText.append(newLine)
     return pronounSwapText
+
 
 def checkWord(word, old, new, exclude):
     """
@@ -89,18 +94,22 @@ def checkWord(word, old, new, exclude):
     return word
 
 
-def writeText(text):
+def writeText(text, modifedFilename):
     """
     Writes the modified text to a text file.
     """
-    with open("The_Adventures_of_Charlotte_Holmes.txt", "wb") as f:
+    with open(modifedFilename, "wb") as f:
         for line in text:
             f.write(line + ' ')
 
 
 if __name__ == "__main__":
-    text = readText()
+    filename = "The_Adventures_of_Sherlock_Holmes.txt"
+    modifedFilename = "The_Adventures_of_Charlotte_Holmes.txt"
+    namesFile = "holmes_names.csv"
+    pronounsFile = "holmes_pronouns.csv"
+    text = readText(filename)
     splitText = splitIntoSentences(text)
-    nameSwapText = replaceNames(splitText)
-    pronounSwapText = replacePronouns(nameSwapText)
-    writeText(pronounSwapText)
+    nameSwapText = replaceNames(splitText, namesFile)
+    pronounSwapText = replacePronouns(nameSwapText, pronounsFile)
+    writeText(pronounSwapText, modifedFilename)
