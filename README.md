@@ -28,7 +28,7 @@ www.gutenberg.org
 License
 =======
 
-Copyright 2014-2015 Emily Daniels
+Copyright 2015 Emily Daniels
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
