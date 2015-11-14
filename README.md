@@ -1,7 +1,7 @@
 Character Swap
 ====================
 
-This program can be used to swap the names and genders of the fictional 
+This program can be used to swap the names and gendered pronouns of fictional 
 characters in a novel to experience the book from a different perspective.
 
 To change the book to be analyzed, add the book as a text file to the same 
