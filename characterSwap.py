@@ -125,7 +125,7 @@ def write_text(text, modified_filename):
     """
     with open(modified_filename, "wb") as f:
         for line in text:
-            f.write(line + ' ')
+            f.write(line + ' \n')
 
 
 if __name__ == "__main__":

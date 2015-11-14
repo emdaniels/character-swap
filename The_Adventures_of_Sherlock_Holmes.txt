@@ -1,23 +1,19 @@
-The Adventures of Sherlock Holmes
+The Adventures of Sherlock Holmes.
 
+I: A Scandal in Bohemia.
+II: The Red-headed League.
+III: A Case of Identity.
+IV: The Boscombe Valley Mystery.
+V: The Five Orange Pips.
+VI: The Man with the Twisted Lip.
+VII: The Adventure of the Blue Carbuncle.
+VIII: The Adventure of the Speckled Band.
+IX: The Adventure of the Engineer's Thumb.
+X: The Adventure of the Noble Bachelor.
+XI: The Adventure of the Beryl Coronet.
+XII: The Adventure of the Copper Beeches.
 
-   I. A Scandal in Bohemia
-  II. The Red-headed League
- III. A Case of Identity
-  IV. The Boscombe Valley Mystery
-   V. The Five Orange Pips
-  VI. The Man with the Twisted Lip
- VII. The Adventure of the Blue Carbuncle
-VIII. The Adventure of the Speckled Band
-  IX. The Adventure of the Engineer's Thumb
-   X. The Adventure of the Noble Bachelor
-  XI. The Adventure of the Beryl Coronet
- XII. The Adventure of the Copper Beeches
-
-
-
-
-ADVENTURE I. A Scandal In Bohemia
+Adventure I: A Scandal In Bohemia.
 
 I.
 
@@ -342,7 +338,7 @@ you."
 
 "The facts are briefly these: Some five years ago, during a
 lengthy visit to Warsaw, I made the acquaintance of the well-known
-adventuress, Irene Adler. The name is no doubt familiar to you."
+adventurer, Irene Adler. The name is no doubt familiar to you."
 
 "Kindly look her up in my index, Doctor," murmured Holmes without
 opening his eyes. For many years he had adopted a system of
@@ -1147,7 +1143,7 @@ photograph, it is always under the honourable title of the woman.
 
 
 
-ADVENTURE II. The Red-Headed League
+Adventure II: The Red-Headed League.
 
 I had called upon my friend, Mr. Sherlock Holmes, one day in the
 autumn of last year and found him in deep conversation with a
@@ -2256,7 +2252,7 @@ c'est tout,' as Gustave Flaubert wrote to George Sand."
 
 
 
-ADVENTURE III. A Case Of Identity
+Adventure III: A Case Of Identity.
 
 "My dear fellow," said Sherlock Holmes as we sat on either side
 of the fire in his lodgings at Baker Street, "life is infinitely
@@ -3059,7 +3055,7 @@ knowledge of the world."
 
 
 
-ADVENTURE IV. The Boscombe Valley Mystery
+Adventure IV: The Boscombe Valley Mystery.
 
 We were seated at breakfast one morning, my wife and I, when the
 maid brought in a telegram. It was from Sherlock Holmes and ran
@@ -4186,7 +4182,7 @@ every prospect that the son and daughter may come to live happily
 together in ignorance of the black cloud which rests upon their
 past.
 
-ADVENTURE V. The Five Orange Pips
+Adventure V: The Five Orange Pips.
 
 When I glance over my notes and records of the Sherlock Holmes
 cases between the years '82 and '90, I am faced by so many which
@@ -5080,7 +5076,7 @@ of a wave, with the letters "L. S." carved upon it, and that is
 all which we shall ever know of the fate of the "Lone Star."
 
 
-ADVENTURE VI. The Man With The Twisted Lip
+Adventure VI: The Man With The Twisted Lip.
 
 Isa Whitney, brother of the late Elias Whitney, D.D., Principal
 of the Theological College of St. George's, was much addicted to
@@ -6184,7 +6180,7 @@ results."
 pillows and consuming an ounce of shag. I think, Watson, that if
 we drive to Baker Street we shall just be in time for breakfast."
 
-ADVENTURE VII. The Adventure Of The Blue Carbuncle
+Adventure VII: The Adventure Of The Blue Carbuncle.
 
 I had called upon my friend Sherlock Holmes upon the second
 morning after Christmas, with the intention of wishing him the
@@ -7163,7 +7159,7 @@ feature."
 
 
 
-ADVENTURE VIII. The Adventure Of The Speckled Band
+Adventure VIII: The Adventure Of The Speckled Band.
 
 On glancing over my notes of the seventy odd cases in which I
 have during the last eight years studied the methods of my friend
@@ -8371,7 +8367,7 @@ weigh very heavily upon my conscience."
 
 
 
-ADVENTURE IX. The Adventure Of The Engineer’s Thumb
+Adventure IX: The Adventure Of The Engineer’s Thumb.
 
 Of all the problems which have been submitted to my friend, Mr.
 Sherlock Holmes, for solution during the years of our intimacy,
@@ -9338,7 +9334,7 @@ existence."
 
 
 
-ADVENTURE X. The Adventure Of The Noble Bachelor
+Adventure X: The Adventure Of The Noble Bachelor.
 
 The Lord St. Simon marriage, and its curious termination, have
 long ceased to be a subject of interest in those exalted circles
@@ -10364,7 +10360,7 @@ these bleak autumnal evenings."
 
 
 
-ADVENTURE XI. The Adventure Of The Beryl Coronet
+Adventure XI: The Adventure Of The Beryl Coronet.
 
 "Holmes," said I as I stood one morning in our bow-window looking
 down the street, "here is a madman coming along. It seems rather
@@ -11493,7 +11489,7 @@ sufficient punishment."
 
 
 
-ADVENTURE XII. The Adventure Of The Copper Beeches
+Adventure XII: The Adventure Of The Copper Beeches.
 
 "To the man who loves art for its own sake," remarked Sherlock
 Holmes, tossing aside the advertisement sheet of the Daily
