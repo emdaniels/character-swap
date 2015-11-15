@@ -779,7 +779,7 @@ but the locality appeared to be less private than I expected. On
 the contrary, for a small street in a quiet neighbourhood, it was
 remarkably animated. There was a group of shabbily dressed men
 smoking and laughing in a corner, a scissors-grinder with his
-wheel, two guardsmen who were flirting with a nurse-girl, and
+wheel, two guardsmen who were flirting with a nurse girl, and
 several well-dressed young men who were lounging up and down with
 cigars in their mouths.
 
@@ -2363,7 +2363,7 @@ grieved. But here she comes in person to resolve our doubts."
 As he spoke there was a tap at the door, and the boy in buttons
 entered to announce Miss Mary Sutherland, while the lady herself
 loomed behind his small black figure like a full-sailed
-merchant-man behind a tiny pilot boat. Sherlock Holmes welcomed
+merchant man behind a tiny pilot boat. Sherlock Holmes welcomed
 her with the easy courtesy for which he was remarkable, and,
 having closed the door and bowed her into an armchair, he looked
 her over in the minute and yet abstracted fashion which was
@@ -3149,7 +3149,7 @@ families. Now for the facts.
 Hatherley about three in the afternoon and walked down to the
 Boscombe Pool, which is a small lake formed by the spreading out
 of the stream which runs down the Boscombe Valley. He had been
-out with his serving-man in the morning at Ross, and he had told
+out with his serving man in the morning at Ross, and he had told
 the man that he must hurry, as he had an appointment of
 importance to keep at three. From that appointment he never came
 back alive.
@@ -5616,7 +5616,7 @@ my friend and colleague. I hate to meet her, Watson, when I have
 no news of her husband. Here we are. Whoa, there, whoa!"
 
 We had pulled up in front of a large villa which stood within its
-own grounds. A stable-boy had run out to the horse's head, and
+own grounds. A stable boy had run out to the horse's head, and
 springing down, I followed Holmes up the small, winding
 gravel-drive which led to the house. As we approached, the door
 flew open, and a little blonde woman stood in the opening, clad
@@ -5882,7 +5882,7 @@ shag which I had seen upon the previous night.
 "Certainly."
 
 "Then dress. No one is stirring yet, but I know where the
-stable-boy sleeps, and we shall soon have the trap out." He
+stable boy sleeps, and we shall soon have the trap out." He
 chuckled to himself as he spoke, his eyes twinkled, and he seemed
 a different man to the sombre thinker of the previous night.
 
@@ -5907,7 +5907,7 @@ not fit the lock."
 
 We made our way downstairs as quietly as possible, and out into
 the bright morning sunshine. In the road stood our horse and
-trap, with the half-clad stable-boy waiting at the head. We both
+trap, with the half-clad stable boy waiting at the head. We both
 sprang in, and away we dashed down the London Road. A few country
 carts were stirring, bearing in vegetables to the metropolis, but
 the lines of villas on either side were as silent and lifeless as
@@ -9406,7 +9406,7 @@ St. Simon. I will read it to you, and in return you must turn
 over these papers and let me have whatever bears upon the matter.
 This is what he says:
 
-"'My Dear Mr. Sherlock Holmes:—Lord Backwater tells me that I
+"'My Dear Mr. Sherlock Holmes: Lord Backwater tells me that I
 may place implicit reliance upon your judgment and discretion. I
 have determined, therefore, to call upon you and to consult you
 in reference to the very painful event which has occurred in
@@ -9592,7 +9592,7 @@ have no doubt that this will prove to be our noble client. Do not
 dream of going, Watson, for I very much prefer having a witness,
 if only as a check to my own memory."
 
-"Lord Robert St. Simon," announced our page-boy, throwing open
+"Lord Robert St. Simon," announced our page boy, throwing open
 the door. A gentleman entered, with a pleasant, cultured face,
 high-nosed and pale, with something perhaps of petulance about
 the mouth, and with the steady, well-opened eye of a man whose
@@ -11219,7 +11219,7 @@ married my boy all might have been well with him. Perhaps it was
 thoughtless of me to say so. It is to that remark that she refers
 in this note:
 
-"'My Dearest Uncle:—I feel that I have brought trouble upon you,
+"'My Dearest Uncle: I feel that I have brought trouble upon you,
 and that if I had acted differently this terrible misfortune
 might never have occurred. I cannot, with this thought in my
 mind, ever again be happy under your roof, and I feel that I must
@@ -11574,7 +11574,7 @@ to me.
 It was dated from Montague Place upon the preceding evening, and
 ran thus:
 
-"Dear Mr. Holmes:—I am very anxious to consult you as to whether
+"Dear Mr. Holmes: I am very anxious to consult you as to whether
 I should or should not accept a situation which has been offered
 to me as governess. I shall call at half-past ten to-morrow if I
 do not inconvenience you. Yours faithfully,
@@ -11788,7 +11788,7 @@ when I received this letter from the gentleman himself. I have it
 here and I will read it to you:
 
                        "'The Copper Beeches, near Winchester.
-"'Dear Miss Hunter:—Miss Stoper has very kindly given me your
+"'Dear Miss Hunter: Miss Stoper has very kindly given me your
 address, and I write from here to ask you whether you have
 reconsidered your decision. My wife is very anxious that you
 should come, for she has been much attracted by my description of
