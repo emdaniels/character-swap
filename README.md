@@ -8,14 +8,14 @@ in a novel to experience the book from a different perspective.
 
 There are three versions of the book:
 
-* one where all the characters have been swapped to the opposite gender 
-    [The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_of_Charlotte_Holmes.txt)
+* [The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_of_Charlotte_Holmes.txt) 
+where all the characters have been swapped to the opposite gender. 
     
-* one where all the characters have been swapped to the female gender
-    [The Womanly Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Womanly_Adventures_of_Charlotte_Holmes.txt)
+* [The Womanly Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Womanly_Adventures_of_Charlotte_Holmes.txt) 
+where all the characters have been swapped to the female gender.
     
-* and one where all the characters have been swapped to the male gender 
-    [The Manly Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Manly_Adventures_of_Sherlock_Holmes.txt)
+* [The Manly Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Manly_Adventures_of_Sherlock_Holmes.txt) 
+where all the characters have been swapped to the male gender. 
 
 To change the book to be analyzed, add the book as a text file to the same 
 file directory as the program, change the name and pronoun csv files to 
