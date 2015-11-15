@@ -1,12 +1,22 @@
 Character Swap
 ====================
 
+An entry in [NaNoGenMo 2015](https://github.com/dariusk/NaNoGenMo-2015/).
+
 This program can be used to swap the names and gendered pronouns of fictional 
 characters in a novel to experience the book from a different perspective.
 
+There are three versions of the book:
+* one where all the characters have been swapped to the opposite gender 
+[The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_of_Charlotte_Holmes.txt)
+* one where all the characters have been swapped to the female gender
+[The Womanly Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Womanly_Adventures_of_Charlotte_Holmes.txt)
+* and one where all the characters have been swapped to the male gender 
+[The Manly Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Manly_Adventures_of_Sherlock_Holmes.txt).
+
 To change the book to be analyzed, add the book as a text file to the same 
 file directory as the program, change the name and pronoun csv files to 
-your liking, change the file name text strings, and rerun the program.
+your liking, change the file name text strings in the main, and rerun the program.
 
 
 References
