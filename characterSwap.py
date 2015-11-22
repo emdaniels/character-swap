@@ -92,13 +92,20 @@ class SwapText(object):
         """
         Checks and replaces words based on the word lists.
         """
+        # remove word starters
+        starter = False
+        add_starter = ""
         # remove word enders
         ender = False
         add_ender = ""
         for punc in set(string.punctuation):
-            if word.endswith(punc):
+            while word.startswith(punc):
+                starter = True
+                add_starter = punc + add_starter
+                word = word[1:]
+            while word.endswith(punc):
                 ender = True
-                add_ender = punc
+                add_ender = punc + add_ender
                 word = word[:-1]
         # remove possession
         possessive = False
@@ -112,6 +119,8 @@ class SwapText(object):
             word += "'s"
         if ender:
             word += add_ender
+        if starter:
+           word = add_starter + word
         return word
 
     def replace_word(self, word, old, new):
@@ -142,21 +151,27 @@ class SwapText(object):
 
 
 if __name__ == "__main__":
-    # all swapped version
+    # swapped pronoun version
     SwapText("The_Adventures_of_Sherlock_Holmes.txt",
-             "The_Adventures_of_Charlotte_Holmes.txt",
-             "holmes_names.csv",
-             "holmes_pronouns.csv",
-             True)
-    # all female version
+              "The_Adventures_of_Charlotte_Holmes.txt",
+              "holmes_names.csv",
+              "holmes_pronouns.csv",
+              True)
+    # they pronoun version
     SwapText("The_Adventures_of_Sherlock_Holmes.txt",
-             "The_Womanly_Adventures_of_Charlotte_Holmes.txt",
-             "womanly_holmes_names.csv",
-             "womanly_holmes_pronouns.csv",
+             "The_Powerful_Adventures_of_Hemlock_Holmes.txt",
+             "powerful_holmes_names.csv",
+             "powerful_holmes_pronouns.csv",
              False)
-    # all male version
+    # she pronoun version
     SwapText("The_Adventures_of_Sherlock_Holmes.txt",
-             "The_Manly_Adventures_of_Sherlock_Holmes.txt",
-             "manly_holmes_names.csv",
-             "manly_holmes_pronouns.csv",
-             False)
+              "The_Womanly_Adventures_of_Charlotte_Holmes.txt",
+              "womanly_holmes_names.csv",
+              "womanly_holmes_pronouns.csv",
+              False)
+    # he pronoun version
+    SwapText("The_Adventures_of_Sherlock_Holmes.txt",
+              "The_Manly_Adventures_of_Sherlock_Holmes.txt",
+              "manly_holmes_names.csv",
+              "manly_holmes_pronouns.csv",
+              False)

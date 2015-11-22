@@ -70,6 +70,8 @@ bachelor,bachelorette
 bachelors,bachelorettes
 bridegroom,bride
 bridegrooms,brides
+groomsman,bridesmaid
+groomsmen,bridesmaids
 monsieur,mademoiselle
 monsieurs,mademoiselles
 monsieure,madame
@@ -145,3 +147,8 @@ workmen,workwomen
 firemen,firewomen
 tomboy,tomgirl
 manly,womanly
+boyfriend,girlfriend
+boyfriends,girlfriends
+masculine,feminine
+masculinity,femininity
+barman,barmaid
