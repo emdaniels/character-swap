@@ -121,13 +121,13 @@ maids,manservants
 womanhood,manhood
 motherhood,fatherhood
 sisterhood,brotherhood
-mankind,womankind
+womankind,mankind
 tradeswoman,tradesman
 tradeswomen,tradesmen
 seawoman,seaman
 seawomen,seamen
-policeman,policewoman
-policemen,policewomen
+policewoman,policeman
+policewomen,policemen
 mistress,gigolo
 mistresses,gigolos
 cabwoman,cabman
@@ -136,7 +136,7 @@ clergywoman,clergyman
 chairwoman,chairman
 forewoman,foreman
 jurywoman,juryman
-juryman,jurywoman
+jurywoman,juryman
 guardswomen,guardsmen
 guardswoman,guardsman
 swordswoman,swordsman

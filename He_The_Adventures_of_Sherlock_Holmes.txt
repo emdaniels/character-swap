@@ -928,7 +928,7 @@ I keep it only to safeguard myself, and to preserve a weapon which will always
 secure me from any steps which he might take in the future.
 I leave a photograph which he might care to possess; and I remain, dear Mr.
 Sherlock Holmes, "Very truly yours, "Ivan Norton, née Adler.” "What a man --
-oh, what a woman!"
+oh, what a man!"
 cried the King of Bohemia, when we had all three read this epistle.
 "Did I not tell you how quick and resolute he was?
 Would he not have made an admirable king?
@@ -2829,7 +2829,7 @@ you and your father?
 "The Coroner: How was it, then, that he uttered it before he saw you, and before
 he even knew that you had returned from Bristol?
 "Witness (with considerable confusion): I do not know.
-"A Jurywoman: Did you see nothing which aroused your suspicions when you
+"A Juryman: Did you see nothing which aroused your suspicions when you
 returned on hearing the cry and found your father fatally injured?
 "Witness: Nothing definite.
 "The Coroner: What do you mean?
@@ -3470,7 +3470,7 @@ hardly a coat to his back or a boot to his foot.
 family to you.
 There's two of us, me and my son, and you can have the keeping of us.
 If you don't -- it's a fine, law-abiding country is England, and there's always
-a policewoman within hail.'
+a policeman within hail.'
 "Well, down they came to the west country, there was no shaking them off, and
 there they have lived rent free on my best land ever since.
 There was no rest for me, no peace, no forgetfulness; turn where I would, there
@@ -3575,7 +3575,7 @@ with exceptional violence.
 All day the wind had screamed and the rain had beaten against the windows, so
 that even here in the heart of great, hand-made London we were forced to raise
 our minds for the instant from the routine of life and to recognise the presence
-of those great elemental forces which shriek at womankind through the bars of
+of those great elemental forces which shriek at mankind through the bars of
 his civilisation, like untamed beasts in a cage.
 As evening drew in, the storm grew higher and louder, and the wind cried and
 sobbed like a child in the chimney.
@@ -3901,7 +3901,7 @@ as the jury stated, and were not to be connected with the warnings."
 Holmes shook his clenched hands in the air.
 "Incredible imbecility!"
 he cried.
-"They have, however, allowed me a policewoman, who may remain in the house with
+"They have, however, allowed me a policeman, who may remain in the house with
 me."
 "Has he come with you to-night?"
 "No.
@@ -4539,7 +4539,7 @@ succession of sombre and deserted streets, which widened gradually, until we
 were flying across a broad balustraded bridge, with the murky river flowing
 sluggishly beneath us.
 Beyond lay another dull wilderness of bricks and mortar, its silence broken only
-by the heavy, regular footfall of the policewoman, or the songs and shouts of
+by the heavy, regular footfall of the policeman, or the songs and shouts of
 some belated party of revellers.
 A dull wrack was drifting slowly across the sky, and a star or two twinkled
 dimly here and there through the rifts of the clouds.
@@ -5035,7 +5035,7 @@ It was a small, office-like room, with a huge ledger upon the table, and a
 telephone projecting from the wall.
 The inspector sat down at his desk.
 "What can I do for you, Mr. Holmes?"
-"I called about that beggarman, Boone -- the one who was charged with being
+"I called about that beggar man, Boone -- the one who was charged with being
 concerned in the disappearance of Mr. Neville St. Clair, of Lee."
 "Yes.
 He was brought up and remanded for further inquiries."
@@ -5961,7 +5961,7 @@ There was no place about the hotel where it would be safe.
 I went out, as if on some commission, and I made for my brother's house.
 He had married a man named Oakshott, and lived in Brixton Road, where he
 fattened fowls for the market.
-All the way there every man I met seemed to me to be a policewoman or a
+All the way there every man I met seemed to me to be a policeman or a
 detective; and, for all that it was a cold night, the sweat was pouring down my
 face before I came to the Brixton Road.
 My brother asked me what was the matter, and why I was so pale; but I told his

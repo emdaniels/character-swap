@@ -152,26 +152,26 @@ class SwapText(object):
 
 if __name__ == "__main__":
     # swapped pronoun version
-    SwapText("The_Adventures_of_Sherlock_Holmes.txt",
-              "The_Adventures_of_Charlotte_Holmes.txt",
-              "holmes_names.csv",
-              "holmes_pronouns.csv",
+    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
+              "Opposite_The_Adventures_of_Charlotte_Holmes.txt",
+              "opposite_holmes_names.csv",
+              "opposite_holmes_pronouns.csv",
               True)
     # they pronoun version
-    SwapText("The_Adventures_of_Sherlock_Holmes.txt",
-             "The_Powerful_Adventures_of_Hemlock_Holmes.txt",
-             "powerful_holmes_names.csv",
-             "powerful_holmes_pronouns.csv",
+    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
+             "They_The_Adventures_of_Hemlock_Holmes.txt",
+             "they_holmes_names.csv",
+             "they_holmes_pronouns.csv",
              False)
     # she pronoun version
-    SwapText("The_Adventures_of_Sherlock_Holmes.txt",
-              "The_Womanly_Adventures_of_Charlotte_Holmes.txt",
-              "womanly_holmes_names.csv",
-              "womanly_holmes_pronouns.csv",
+    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
+              "She_The_Adventures_of_Charlotte_Holmes.txt",
+              "she_holmes_names.csv",
+              "she_holmes_pronouns.csv",
               False)
     # he pronoun version
-    SwapText("The_Adventures_of_Sherlock_Holmes.txt",
-              "The_Manly_Adventures_of_Sherlock_Holmes.txt",
-              "manly_holmes_names.csv",
-              "manly_holmes_pronouns.csv",
+    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
+              "He_The_Adventures_of_Sherlock_Holmes.txt",
+              "he_holmes_names.csv",
+              "he_holmes_pronouns.csv",
               False)
