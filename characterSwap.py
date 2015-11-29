@@ -120,7 +120,7 @@ class SwapText(object):
         if ender:
             word += add_ender
         if starter:
-           word = add_starter + word
+            word = add_starter + word
         return word
 
     def replace_word(self, word, old, new):
@@ -148,30 +148,3 @@ class SwapText(object):
         with open(self.modified_filename, "wb") as f:
             f.write('\n'.join(s.rstrip() for line in self.pronoun_swapped_text
                               for s in regex.findall(line)))
-
-
-if __name__ == "__main__":
-    # swapped pronoun version
-    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
-              "Opposite_The_Adventures_of_Charlotte_Holmes.txt",
-              "opposite_holmes_names.csv",
-              "opposite_holmes_pronouns.csv",
-              True)
-    # they pronoun version
-    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
-             "They_The_Adventures_of_Hemlock_Holmes.txt",
-             "they_holmes_names.csv",
-             "they_holmes_pronouns.csv",
-             False)
-    # she pronoun version
-    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
-              "She_The_Adventures_of_Charlotte_Holmes.txt",
-              "she_holmes_names.csv",
-              "she_holmes_pronouns.csv",
-              False)
-    # he pronoun version
-    SwapText("Original_The_Adventures_of_Sherlock_Holmes.txt",
-              "He_The_Adventures_of_Sherlock_Holmes.txt",
-              "he_holmes_names.csv",
-              "he_holmes_pronouns.csv",
-              False)
