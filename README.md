@@ -8,16 +8,16 @@ in a novel to experience the book from a different perspective.
 
 There are four versions of the book:
 
-* [The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_of_Charlotte_Holmes.txt) 
+* [Opposite: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/Opposite_The_Adventures_of_Charlotte_Holmes.txt) 
 where all the characters have been swapped to a version of themselves using the opposite pronouns.  
 
-* [The Powerful Adventures of Hemlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Powerful_Adventures_of_Hemlock_Holmes.txt) 
+* [They: The Adventures of Hemlock Holmes](https://github.com/emdaniels/character-swap/blob/master/They_The_Adventures_of_Hemlock_Holmes.txt) 
 where all the characters have been swapped to a version of themselves using they pronouns. 
     
-* [The Womanly Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Womanly_Adventures_of_Charlotte_Holmes.txt) 
+* [She: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/She_The_Adventures_of_Charlotte_Holmes.txt) 
 where all the characters have been swapped to a version of themselves using she pronouns. 
     
-* [The Manly Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Manly_Adventures_of_Sherlock_Holmes.txt) 
+* [He: The Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/He_The_Adventures_of_Sherlock_Holmes.txt) 
 where all the characters have been swapped to a version of themselves using he pronouns. 
 
 To change the book to be analyzed, add the book as a text file to the same 
