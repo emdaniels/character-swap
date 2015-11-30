@@ -56,6 +56,7 @@ class SwapText(object):
             (?<!  Prof\. )    # Don't end sentence on "Prof."
             (?<!  Sr\.   )    # Don't end sentence on "Sr."
             (?<!  St\.   )    # Don't end sentence on "St."
+            (?<!  M\.   )    # Don't end sentence on "M."
             \s+               # Split on whitespace between sentences.
             """, re.IGNORECASE | re.VERBOSE)
         self.split_text = sentence_enders.split(self.text)
