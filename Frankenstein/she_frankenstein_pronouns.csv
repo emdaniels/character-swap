@@ -3,7 +3,6 @@ him,her
 his,herr
 himself,herself
 mr,ms
-mrr,mrs
 man,woman
 mans,womans
 boy,girl
@@ -82,8 +81,6 @@ sires,maams
 boyish,girlish
 guy,gal
 guys,gals
-ladd,lass
-ladds,lasses
 brethren,sistren
 brethrens,sistrens
 fraternity,sorority
@@ -139,6 +136,8 @@ chairman,chairwoman
 foreman,forewoman
 juryman,jurywoman
 jurymen,jurywomen
+policeman,policewoman
+policemen,policewomen
 guardsmen,guardswomen
 guardsman,guardswoman
 swordsman,swordswoman
@@ -150,6 +149,7 @@ workmen,workwomen
 fireman,firewoman
 firemen,firewomen
 tomboy,tomgirl
+brotherhood,sisterhood
 manly,womanly
 boyfriend,girlfriend
 boyfriends,girlfriends
