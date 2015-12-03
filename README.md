@@ -8,19 +8,19 @@ in a novel to experience the book from a different perspective.
 
 The program creates four versions of any book:
 
-* Opposite: where all the characters have been swapped to a version of themselves using the opposite pronouns. 
+Opposite: where all the characters have been swapped to a version of themselves using the opposite pronouns. 
   *[Opposite: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/Opposite_The_Adventures_of_Charlotte_Holmes.txt) 
   *[Opposite: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/Opposite_Frankenstein.txt)
 
-* They: where all the characters have been swapped to a version of themselves using they pronouns. 
+They: where all the characters have been swapped to a version of themselves using they pronouns. 
   *[They: The Adventures of Hemlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/They_The_Adventures_of_Hemlock_Holmes.txt) 
   *[They: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/They_Frankenstein.txt)
     
-* She: where all the characters have been swapped to a version of themselves using she pronouns.
+She: where all the characters have been swapped to a version of themselves using she pronouns.
   *[She: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/She_The_Adventures_of_Charlotte_Holmes.txt) 
   *[She: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/She_Frankenstein.txt)
     
-* He: where all the characters have been swapped to a version of themselves using he pronouns.
+He: where all the characters have been swapped to a version of themselves using he pronouns.
   *[He: The Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/He_The_Adventures_of_Sherlock_Holmes.txt) 
   *[He: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/He_Frankenstein.txt) 
 
