@@ -32,10 +32,10 @@ if __name__ == "__main__":
         "she_frankenstein_names.csv",
         "she_frankenstein_pronouns.csv",
         False)
-    # # he pronoun version
-    # characterSwap.SwapText(
-    #     "Original_Frankenstein.txt",
-    #     "He_Frankenstein.txt",
-    #     "he_frankenstein_names.csv",
-    #     "he_frankenstein_pronouns.csv",
-    #     False)
+    # he pronoun version
+    characterSwap.SwapText(
+        "Original_Frankenstein.txt",
+        "He_Frankenstein.txt",
+        "he_frankenstein_names.csv",
+        "he_frankenstein_pronouns.csv",
+        False)
