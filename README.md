@@ -6,19 +6,23 @@ An entry in [NaNoGenMo 2015](https://github.com/dariusk/NaNoGenMo-2015/).
 This program can be used to swap the names and gendered pronouns of characters 
 in a novel to experience the book from a different perspective.
 
-There are four versions of the book:
+The program creates four versions of any book:
 
-* [Opposite: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/Opposite_The_Adventures_of_Charlotte_Holmes.txt) 
-where all the characters have been swapped to a version of themselves using the opposite pronouns.  
+* Opposite: where all the characters have been swapped to a version of themselves using the opposite pronouns. 
+-[Opposite: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/Opposite_The_Adventures_of_Charlotte_Holmes.txt) 
+-[Opposite: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/Opposite_Frankenstein.txt)
 
-* [They: The Adventures of Hemlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/They_The_Adventures_of_Hemlock_Holmes.txt) 
-where all the characters have been swapped to a version of themselves using they pronouns. 
+* They: where all the characters have been swapped to a version of themselves using they pronouns. 
+-[They: The Adventures of Hemlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/They_The_Adventures_of_Hemlock_Holmes.txt) 
+-[They: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/They_Frankenstein.txt)
     
-* [She: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/She_The_Adventures_of_Charlotte_Holmes.txt) 
-where all the characters have been swapped to a version of themselves using she pronouns. 
+* She: where all the characters have been swapped to a version of themselves using she pronouns.
+-[She: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/She_The_Adventures_of_Charlotte_Holmes.txt) 
+-[She: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/She_Frankenstein.txt)
     
-* [He: The Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/He_The_Adventures_of_Sherlock_Holmes.txt) 
-where all the characters have been swapped to a version of themselves using he pronouns. 
+* He: where all the characters have been swapped to a version of themselves using he pronouns.
+-[He: The Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/He_The_Adventures_of_Sherlock_Holmes.txt) 
+-[He: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/He_Frankenstein.txt) 
 
 To change the book to be analyzed, create a folder and add the book as a text file 
 to the folder, add name and pronoun csv files to the folder, and copy or create a
@@ -33,11 +37,15 @@ References
 The Adventures of Sherlock Holmes
 ---------------------------------
 
-This and all associated files of various formats can be found in:
+This and all associated files of various formats can be found at:
 http://www.gutenberg.org/ebooks/1661
 
-Produced by an anonymous Project Gutenberg volunteer and Jose Menendez.
-This eBook is for the use of anyone anywhere at no cost and with
+Frankenstein
+------------
+This and all associated files of various formats can be found at:
+http://www.gutenberg.org/ebooks/84
+
+These eBooks are for the use of anyone anywhere at no cost and with
 almost no restrictions whatsoever.  You may copy it, give it away or
 re-use it under the terms of the Project Gutenberg License online at 
 www.gutenberg.org

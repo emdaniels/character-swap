@@ -1,7 +1,7 @@
 #! /usr/bin/env python2
 
 """
-Filename: holmesSwap.py
+Filename: frankensteinSwap.py
 Author: Emily Daniels
 Date: November 2015
 Purpose: Swaps the names and genders of characters in
