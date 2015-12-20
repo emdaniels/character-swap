@@ -9,30 +9,15 @@ in a novel to experience the book from a different perspective.
 The program creates four versions of any book:
 
 * Opposite: where all the characters have been swapped to a version of themselves using the opposite pronouns. 
-
-  * [Opposite: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/Opposite_The_Adventures_of_Charlotte_Holmes.txt) 
-  * [Opposite: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/Opposite_Frankenstein.txt)
-
 * They: where all the characters have been swapped to a version of themselves using they pronouns. 
-
-  * [They: The Adventures of Hemlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/They_The_Adventures_of_Hemlock_Holmes.txt) 
-  * [They: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/They_Frankenstein.txt)
-    
-* She: where all the characters have been swapped to a version of themselves using she pronouns.
-
-  * [She: The Adventures of Charlotte Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/She_The_Adventures_of_Charlotte_Holmes.txt) 
-  * [She: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/She_Frankenstein.txt)
-    
+* She: where all the characters have been swapped to a version of themselves using she pronouns. 
 * He: where all the characters have been swapped to a version of themselves using he pronouns.
 
-  * [He: The Adventures of Sherlock Holmes](https://github.com/emdaniels/character-swap/blob/master/The_Adventures_Of_Sherlock_Holmes/He_The_Adventures_of_Sherlock_Holmes.txt) 
-  * [He: Frankenstein](https://github.com/emdaniels/character-swap/blob/master/Frankenstein/He_Frankenstein.txt) 
-
-To change the book to be analyzed, create a folder and add the book as a text file 
-to the folder, add name and pronoun csv files to the folder, and copy or create a
-python file similar to holmesSwap.py in the same folder. Change the file name text 
-strings in the main function in the python file to the name of the book, and run 
-the program. The program takes around 30 minutes to complete all four versions. 
+To change the book to be analyzed, create a folder for the book and add the book as a text file 
+to that folder. Create a names folder inside the book folder and add four name csv files to that folder
+with the character names and the name changes you'd like, and create a python file similar to holmesSwap.py 
+in the book folder. Change the file name text in the main function in the python file to the name of the book, 
+and run the program. The program takes around 30 minutes to complete all four versions. 
 
 
 References

@@ -9,26 +9,49 @@ Purpose: Swaps the names and genders of characters in a novel.
 
 import re
 import string
+import os
+import characterDict
 
 
 class SwapText(object):
 
-    def __init__(self, filename, modified_filename, names_file, pronouns_file,
-                 is_mixed):
+    def __init__(self, filename):
+        self.filename = filename
+        self.is_mixed = False
         self.text = ""
         self.split_text = []
-        self.name_swapped_text = []
-        self.pronoun_swapped_text = []
-        self.filename = filename
-        self.modified_filename = modified_filename
-        self.names_file = names_file
-        self.pronouns_file = pronouns_file
-        self.is_mixed = is_mixed
+        self.opposite_names = {}
+        self.they_names = {}
+        self.she_names = {}
+        self.he_names = {}
+        self.opposite_name_swapped_text = []
+        self.they_name_swapped_text = []
+        self.she_name_swapped_text = []
+        self.he_name_swapped_text = []
+        self.opposite_pronouns = {}
+        self.they_pronouns = {}
+        self.she_pronouns = {}
+        self.he_pronouns = {}
+        self.opposite_pronoun_swapped_text = []
+        self.they_pronoun_swapped_text = []
+        self.she_pronoun_swapped_text = []
+        self.he_pronoun_swapped_text = []
         self.read_text()
         self.split_into_sentences()
-        self.replace_names()
-        self.replace_pronouns()
-        self.write_text()
+        self.create_names()
+        self.replace_names('opposite')
+        self.replace_names('they')
+        self.replace_names('she')
+        self.replace_names('he')
+        self.create_pronouns()
+        self.replace_pronouns('opposite')
+        self.replace_pronouns('they')
+        self.replace_pronouns('she')
+        self.replace_pronouns('he')
+        self.write('opposite')
+        self.write('they')
+        self.write('she')
+        self.write('he')
 
     def read_text(self):
         """
@@ -62,23 +85,93 @@ class SwapText(object):
         self.split_text = sentence_enders.split(self.text)
         return self.split_text
 
-    def replace_names(self):
+    def create_names(self):
         """
-        Replaces the original character names with those from the file.
+        Creates dictionaries of all name types, given created name csv files
+        in a names folder.
         """
-        names = [i.strip().split(',') for i in open(self.names_file)]
+        self.opposite_names = characterDict.CreateDict(os.path.abspath(
+            "names/opposite_names.csv"))
+        self.they_names = characterDict.CreateDict(os.path.abspath(
+            "names/they_names.csv"))
+        self.she_names = characterDict.CreateDict(os.path.abspath(
+            "names/she_names.csv"))
+        self.he_names = characterDict.CreateDict(os.path.abspath(
+            "names/he_names.csv"))
+
+    def replace_names(self, type):
+        """
+        Replaces text with all name types.
+        """
+        if type == 'opposite':
+            self.opposite_name_swapped_text = self.swap_names(
+                self.opposite_names)
+        if type == 'they':
+            self.they_name_swapped_text = self.swap_names(
+                self.they_names)
+        if type == 'she':
+            self.she_name_swapped_text = self.swap_names(
+                self.she_names)
+        if type == 'he':
+            self.he_name_swapped_text = self.swap_names(
+                self.he_names)
+
+    def swap_names(self, names):
+        """
+        Replaces the original character names with the specified names.
+        """
+        name_swapped_text = []
         for line in self.split_text:
             for old, new in names:
                 line = line.replace(old, new)
-            self.name_swapped_text.append(line)
-        return self.name_swapped_text
+            name_swapped_text.append(line)
+        return name_swapped_text
 
-    def replace_pronouns(self):
+    def create_pronouns(self):
         """
-        Replaces the original character pronouns with those from the file.
+        Creates dictionaries of all pronoun types, creating a path to where
+        characterSwap is located.
         """
-        pronouns = [i.strip().split(',') for i in open(self.pronouns_file)]
-        for line in self.name_swapped_text:
+        self.opposite_pronouns = characterDict.CreateDict(
+            os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                         "opposite_pronouns.csv")))
+        self.they_pronouns = characterDict.CreateDict(
+            os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                         "they_pronouns.csv")))
+        self.she_pronouns = characterDict.CreateDict(
+            os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                         "she_pronouns.csv")))
+        self.he_pronouns = characterDict.CreateDict(
+            os.path.abspath(os.path.join(os.path.dirname(__file__),
+                                         "he_pronouns.csv")))
+
+    def replace_pronouns(self, type):
+        """
+        Replaces text with all pronoun types.
+        """
+        if type == 'opposite':
+            self.is_mixed = True
+            self.opposite_pronoun_swapped_text = self.swap_pronouns(
+                self.opposite_pronouns, self.opposite_name_swapped_text)
+        if type == 'they':
+            self.is_mixed = False
+            self.they_pronoun_swapped_text = self.swap_pronouns(
+                self.they_pronouns, self.they_name_swapped_text)
+        if type == 'she':
+            self.is_mixed = False
+            self.she_pronoun_swapped_text = self.swap_pronouns(
+                self.she_pronouns, self.she_name_swapped_text)
+        if type == 'he':
+            self.is_mixed = False
+            self.he_pronoun_swapped_text = self.swap_pronouns(
+                self.he_pronouns, self.he_name_swapped_text)
+
+    def swap_pronouns(self, pronouns, name_swapped_text):
+        """
+        Replaces the original character pronouns with the specified pronouns.
+        """
+        pronoun_swapped_text = []
+        for line in name_swapped_text:
             words = line.split()
             new_words = []
             for word in words:
@@ -86,8 +179,8 @@ class SwapText(object):
                     word = self.check_word(word, old, new)
                 new_words.append(word)
             new_line = ' '.join(new_words)
-            self.pronoun_swapped_text.append(new_line)
-        return self.pronoun_swapped_text
+            pronoun_swapped_text.append(new_line)
+        return pronoun_swapped_text
 
     def check_word(self, word, old, new):
         """
@@ -141,11 +234,24 @@ class SwapText(object):
                 word = word.replace(word, old)
         return word
 
-    def write_text(self):
+    def write(self, type):
+        """
+        Writes each pronoun swapped text to a text file.
+        """
+        if type == 'opposite':
+            self.write_text('Opposite_', self.opposite_pronoun_swapped_text)
+        if type == 'they':
+            self.write_text('They_', self.they_pronoun_swapped_text)
+        if type == 'she':
+            self.write_text('She_', self.she_pronoun_swapped_text)
+        if type == 'he':
+            self.write_text('He_', self.he_pronoun_swapped_text)
+
+    def write_text(self, modifier, pronoun_swapped_text):
         """
         Writes the modified text to a text file.
         """
         regex = re.compile(r'.{1,80}(?:\s+|$)')
-        with open(self.modified_filename, "wb") as f:
-            f.write('\n'.join(s.rstrip() for line in self.pronoun_swapped_text
+        with open(modifier + self.filename, "wb") as f:
+            f.write('\n'.join(s.rstrip() for line in pronoun_swapped_text
                               for s in regex.findall(line)))
