@@ -6,18 +6,21 @@ An entry in [NaNoGenMo 2015](https://github.com/dariusk/NaNoGenMo-2015/).
 This program can be used to swap the names and gendered pronouns of characters 
 in a novel to experience the book from a different perspective.
 
-The program creates four versions of any book:
+The program creates four versions of a book:
 
 * Opposite: where all the characters have been swapped to a version of themselves using the opposite pronouns. 
 * They: where all the characters have been swapped to a version of themselves using they pronouns. 
 * She: where all the characters have been swapped to a version of themselves using she pronouns. 
 * He: where all the characters have been swapped to a version of themselves using he pronouns.
 
+It also modifies and augments the text to recreate each text into a version where the characters have 
+different skin colors, which are created in the same folder and named Reskinned_(pronoun)_(book name).txt
+
 To change the book to be analyzed, create a folder for the book and add the book as a text file 
 to that folder. Create a names folder inside the book folder and add four name csv files to that folder
 with the character names and the name changes you'd like, and create a python file similar to holmesSwap.py 
 in the book folder. Change the file name text in the main function in the python file to the name of the book, 
-and run the program. The program takes around 30 minutes to complete all four versions. 
+and run the program. The program takes around 30 minutes to complete. 
 
 
 References
