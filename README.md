@@ -46,14 +46,14 @@ The program creates multiple versions of a book:
   That was always the way. Folk who were in grief came to my husband like birds to a light-house.
 
 * Skin Color: the text is modified and augmented to create a version where the characters have different skin colors.
- These texts are created in the same folder and named Reskinned_(pronoun)_(book name).txt
+  These texts are created in the same folder and named Reskinned_(pronoun)_(book name).txt
  
- >"Mister Roylott, you have not.  You are screening your stepfather."  "Why, what do you mean?"  For answer Holmes pushed 
- back the frill of black lace which fringed the dark  hand that lay upon our visitor's knee.  Five little livid spots, 
- the marks of four dark fingers and a thumb, were  printed upon the black wrist. "You have been cruelly used," said 
- Holmes.  The lord coloured deeply and covered over his injured wrist. "He is a hard man,"  he said, "and perhaps he 
- hardly knows his own strength."  There was a long silence, during which Holmes leaned his chin upon his dark  hands 
- and stared into the crackling fire.
+  >He opened a locket and showed us the full bronzed face of a very lovely man. It was not a photograph but an ebony 
+  miniature, and the artist had brought out the full effect of the lustrous black hair, the large dark eyes, and the 
+  exquisite mouth.
+
+  >"Let us have everything in its due order."  Holmes thrust his long thin caramel legs out towards the fire and composed  
+  himself to listen.
 
 
 
