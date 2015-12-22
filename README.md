@@ -11,6 +11,7 @@ The program creates multiple versions of a book:
 * Opposite: where all the characters have been swapped to a version of themselves using the opposite pronouns. 
 
   >She was a remarkably handsome woman dark, aquiline, and moustached–evidently the woman of whom I had heard.
+  
   >Oh, he has turned all the women’s heads down in that part. He is the daintiest thing under a bonnet on this planet.
   
 * They: where all the characters have been swapped to a version of themselves using they pronouns.
@@ -47,11 +48,11 @@ The program creates multiple versions of a book:
 * Skin Color: the text is modified and augmented to create a version where the characters have different skin colors.
  These texts are created in the same folder and named Reskinned_(pronoun)_(book name).txt
  
- >"Mister Roylott, you have not. You are screening your stepfather." "Why, what do you mean?" For answer Holmes pushed 
- back the frill of black lace which fringed the dark hand that lay upon our visitor's knee. Five little livid spots, 
- the marks of four dark fingers and a thumb, were printed upon the black wrist. "You have been cruelly used," said 
- Holmes. The lord coloured deeply and covered over his injured wrist. "He is a hard man," he said, "and perhaps he 
- hardly knows his own strength." There was a long silence, during which Holmes leaned his chin upon his dark hands 
+ >"Mister Roylott, you have not.  You are screening your stepfather."  "Why, what do you mean?"  For answer Holmes pushed 
+ back the frill of black lace which fringed the dark  hand that lay upon our visitor's knee.  Five little livid spots, 
+ the marks of four dark fingers and a thumb, were  printed upon the black wrist. "You have been cruelly used," said 
+ Holmes.  The lord coloured deeply and covered over his injured wrist. "He is a hard man,"  he said, "and perhaps he 
+ hardly knows his own strength."  There was a long silence, during which Holmes leaned his chin upon his dark  hands 
  and stared into the crackling fire.
 
 
