@@ -18,6 +18,7 @@ class Reskin(object):
 
     def __init__(self, filename):
         self.filename = filename
+        self.text = ""
         self.split_text = []
         self.swapped_text = []
         self.augmented_text = []
